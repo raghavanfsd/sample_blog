@@ -1,5 +1,5 @@
 .main-section {
-  background-color: var(--primary-color);
+  background-color: var(--primary-light-color);
   color: var(--def-color);
 
   display: grid;
@@ -137,15 +137,13 @@
 .share {
   display: flex;
   flex-flow: row wrap;
+  align-content: flex-end;
 }
 
 .social-site {
   margin-right: 25px;
 }
 
-a:hover {
-  padding: 10px;
-}
 /* Media Queries */
 
 /* Extra small devices (phones, 600px and down) */
@@ -154,7 +152,7 @@ a:hover {
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media only screen and (max-width: 767px) and (min-width: 300px) {
+@media only screen and (max-width: 767px) and (min-width: 250px) {
   .author-info {
     justify-content: space-around;
     align-items: center;
@@ -164,9 +162,17 @@ a:hover {
     display: none;
   }
 
+  .author-info,
   .blogs-button,
   .share {
-    margin-top: 20px;
+    margin: 10px;
+    font-size: 1rem;
+  }
+
+  .Button {
+    border: 1px groove;
+    border-radius: 10px;
+    padding: 5px;
   }
 }
 
