@@ -1,0 +1,25 @@
+@import './customize.css';
+@import './header.css';
+@import './blog-page.css';
+@import './footer.css';
+
+.container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15% 1fr 10%;
+
+  grid-template-areas:
+    'hdr'
+    'main'
+    'ftr';
+
+  width: 100vw;
+  height: 95vh;
+
+  grid-gap: 10px;
+}

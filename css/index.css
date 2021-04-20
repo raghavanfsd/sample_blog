@@ -1,0 +1,47 @@
+@import './customize.css';
+@import './header.css';
+@import './side.css';
+@import './main.css';
+@import './footer.css';
+
+.container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  grid-template-rows: 15% 1fr 10%;
+
+  grid-template-areas:
+    'hdr hdr'
+    'sd main'
+    'ftr ftr';
+
+  width: 100vw;
+  height: 95vh;
+
+  grid-gap: 10px;
+}
+
+/* Media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (max-width: 991px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15% 1fr 1fr 10%;
+    grid-template-areas:
+      'hdr'
+      'sd'
+      'main'
+      'ftr';
+  }
+}

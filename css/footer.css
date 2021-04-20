@@ -1,0 +1,17 @@
+.foot {
+  grid-area: ftr;
+  background-color: var(--primary-color);
+  position: sticky;
+  bottom: 0px;
+
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: auto;
+  align-items: center;
+}
+
+.copyright {
+  color: var(--def-color);
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}

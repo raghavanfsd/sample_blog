@@ -1,0 +1,38 @@
+.side {
+  grid-area: sd;
+
+  background-color: var(--primary-light-color);
+
+  display: grid;
+
+  color: var(--def-color);
+  font-size: 1.4rem;
+
+  overflow: auto;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.side h2 {
+  font-size: 1.9rem;
+  font-weight: bolder;
+  text-decoration: underline;
+  margin: 20px;
+}
+
+.side-menu li {
+  padding: 20px;
+}
+
+.more {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px;
+  justify-self: right;
+  align-self: flex-end;
+  font-weight: bolder;
+}
+
+.desc-decor {
+  text-transform: capitalize;
+}

@@ -1,0 +1,33 @@
+.head {
+  grid-area: hdr;
+  background-color: var(--primary-dark-color);
+  position: sticky;
+  top: 0px;
+
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: auto;
+  align-items: center;
+}
+
+.logo {
+  height: 150px;
+  opacity: 0.5;
+}
+
+.banner {
+  height: 64px;
+  width: 64px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('../images/travel_blogger_icon.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
