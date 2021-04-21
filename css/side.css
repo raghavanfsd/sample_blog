@@ -1,7 +1,7 @@
 .side {
   grid-area: sd;
 
-  background-color: var(--primary-light-color);
+  background-color: var(--primary-color);
 
   display: grid;
 

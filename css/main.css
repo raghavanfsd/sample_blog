@@ -1,6 +1,6 @@
 .main-section {
   grid-area: main;
-  background-color: var(--primary-light-color);
+  background-color: var(--primary-color);
 
   border-radius: 10px;
   overflow: auto;

@@ -24,7 +24,7 @@
 }
 
 .main-section {
-  background-color: var(--primary-light-color);
+  background-color: var(--primary-color);
   color: var(--def-color);
 
   display: grid;

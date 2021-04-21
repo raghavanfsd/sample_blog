@@ -1,5 +1,5 @@
 .main-section {
-  background-color: var(--primary-light-color);
+  background-color: var(--primary-color);
   color: var(--def-color);
 
   display: grid;
@@ -61,6 +61,12 @@
 
   width: auto;
   height: auto;
+}
+
+.caption {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-end;
 }
 
 .card1 {
@@ -173,6 +179,17 @@
     border: 1px groove;
     border-radius: 10px;
     padding: 5px;
+  }
+
+  .caption {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+  }
+
+  .fa {
+    font-size: 24px;
   }
 }
 

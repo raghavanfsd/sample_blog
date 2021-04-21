@@ -1,6 +1,6 @@
 .foot {
   grid-area: ftr;
-  background-color: var(--primary-color);
+  background-color: var(--primary-light-color);
   position: sticky;
   bottom: 0px;
 

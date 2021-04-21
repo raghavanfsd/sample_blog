@@ -24,3 +24,7 @@ body {
 a:hover {
   color: magenta;
 }
+
+.fa {
+  font-size: 36px;
+}
